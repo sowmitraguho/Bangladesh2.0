@@ -167,8 +167,58 @@ body{
 .quote-section h3{
     margin-bottom: 2px;
 }
-
-
+.news-section{
+    margin-bottom: 30px;
+}
+.news-title{
+    font-size: 30px;
+}
+.news-description{
+    color: #393A3A;
+}
+.news-card{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px;
+    
+}
+.news-img-card{
+    width:50%;
+    margin-right: 10px;
+}
+.news-img{
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    
+}
+.news-details{
+    margin: auto;
+    margin-right: 10px;
+}
+.card-title{
+    color: #393A3A;
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+.news-details p{
+    color: #393A3A;
+    margin-top: 5px;
+}
+.news-btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #006A50;
+    border-radius: 5px;
+    border: 1px solid #006A50;
+    color: white;
+    font-weight: bold;
+}
 
 
 
