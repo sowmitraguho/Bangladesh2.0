@@ -1,3 +1,30 @@
-h2{
+body{
+    padding: 10px;
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.banner-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px solid green;
+    background-color: #C6E4D6;
+    padding: 16px;
+}
+.banner-left{
+    padding-left: 16px;
+    margin: auto;
+}
+.banner-left h4{
+    font-size: 20px;
+    color: rgb(128, 124, 124);
+    margin-bottom: 10px;
+}
+.banner-left h2{
     font-size: 50px;
+    margin: 0;
 }
