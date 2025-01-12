@@ -108,13 +108,23 @@ body{
 }
 .vision-intro{
     margin-bottom: 30px;
+    color: #393A3A;
+}
+.all-future-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 .future-card{
+    flex: 1;
     padding: 20px;
     border: 1px solid;
     border-radius: 10px;
+    color: #393A3A;
 }
+
 .card-btn{
+    
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
@@ -126,7 +136,7 @@ body{
     font-weight: bold;
 }
 .btn-1{
-    background-color: #1e4c9c;
+    background-color: rgba(56, 53, 216, 0.3);
 }
 .btn-2{
     background-color: #13bb6f;
@@ -249,6 +259,9 @@ body{
     border: 1px solid rgb(221, 216, 216);
     border-radius: 20px;
     margin: 10px;
+}
+.amount-card:hover{
+    background-color: rgb(178, 245, 215);
 }
 .active-card{
     background-color: rgb(7, 192, 90, 30%);
