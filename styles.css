@@ -219,8 +219,53 @@ body{
     color: white;
     font-weight: bold;
 }
-
-
+.donate-section{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.donate-title{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.all-amounts-card{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+    justify-content: center;
+}
+.amount-card{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid rgb(221, 216, 216);
+    border-radius: 20px;
+    margin: 10px;
+}
+.active-card{
+    background-color: rgb(7, 192, 90, 30%);
+}
+.amount-input{
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 15px;
+    text-align: center;
+    border: none;
+    border-bottom: 0.5px solid #cdd1d1;
+}
+.donate-btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #006A50;
+    border-radius: 5px;
+    border: 1px solid #006A50;
+    color: white;
+    font-weight: bold;
+}
 
 
 
